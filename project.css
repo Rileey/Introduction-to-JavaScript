@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+header {
+    background-color: #e4572e;
+}
+header h2 {
+    color: white;
+    font-family: "Gamja Flower";
+}
+h1 {
+font-family: "Chelsea Market", cursive;
+}
+article h2 {
+    font-family: "Gamja Flower";
+}
+p {
+    text-align: left;
+}
+main {
+    background-color: #fffff2;
+}
+p {
+    font-family: "Gamja Flower";
+}
+article {
+    text-align: left;
+    border: 4px solid #050401;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+article .section-2 {
+    margin-bottom: 1.5%;
+}
+.input {
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+::placeholder {
+    font-family: "Gamja Flower";
+    font-weight: bold;
+}
+.spatula {
+    height: 60px;
+    float: right;
+}
+.cookie {
+    float: right;
+}
+footer p {
+    display: inline;
+}
