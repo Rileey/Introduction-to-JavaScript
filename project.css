@@ -9,7 +9,7 @@ header h2 {
     font-family: "Gamja Flower";
 }
 h1 {
-font-family: "Chelsea Market", cursive;
+font-family: "Chelsea Market";
 }
 article h2 {
     font-family: "Gamja Flower";
@@ -48,6 +48,9 @@ article .section-2 {
 }
 .cookie {
     float: right;
+}
+footer h2{
+    font-family: "Gamja Flower";
 }
 footer p {
     display: inline;
