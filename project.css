@@ -43,11 +43,16 @@ article .section-2 {
     font-weight: bold;
 }
 .spatula {
-    height: 60px;
+    height: 70px;
     float: right;
+    margin-top: -20px;
+    margin-right: 5px;
 }
 .cookie {
     float: right;
+    margin-right: 4px;
+    margin-left: 3px;
+    margin-top: -27px;
 }
 footer h2{
     font-family: "Gamja Flower";
