@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <title>Sanni's Journal</title>
     <link rel="stylesheet" href="project.css">
+   
 </head>
 
 <body>
@@ -16,15 +17,28 @@
         <h1>Sanni's Journal</h1>
         <h2>So fresh and so clean</h2>
     </header>
+        <button id="notes" onclick="popup()">Add a new note</button>
+
+        
+
+    <section>
+        <!-- <p id="demo"></p>--> 
+        <p id="word"></p>
+       
+            <article class="section">
+                <p id="firstnote"></p>
+            </article>
+    </section>
+    
     <main>
-        <article class="section-1">
+        <article class="section">
             <h2>13/05/23: Spatulas</h2>
             <p><img src="assets/spatula.gif" class="spatula" alt="spatulas"></p>
             <p>
                 Yesterday I went to the store and got some much-needed <a href="https://www.youtube.com/watch?v=2XbCWmY0eqY">spatulas!</a> (What better way to say I love myself than to buy myself a spatula?)
             </p>
         </article>
-        <article class="section-2">
+        <article class="section">
             <h2>14/05/23: Cookie Monster Cupcakes</h2>
             <p><img src="assets/cookiemonster.jpg" class="cookie" alt="cookie monster"></p>
             <p>My favorite cartoon character is Cookie Monster, and my favorite dessert is cupcakes, so Cookie Monster cupcakes are the best of both worlds.
@@ -33,6 +47,19 @@
             <p>Did you know? Cookie Monster once said, <q>Sometimes me think what is love, and then me think love is what last cookie is for. Me give up the last cookie for you.</q> I wonder if the same applies for cupcakes? (If so, I don't think I can ever love ANYONE!)
             </p>
         </article>
+        <!--JavaScript Form-->
+        <!--
+        <section id="form" style="display: none;">
+            <form class="form-body" onsubmit="post()">
+                <label>Got something to tell us?</label>
+                <span id="cancel" onclick="document.getElementById('form').style.display='none'">×</span>
+                <div class="textbox">
+                    <input type="text" id="box" class="input-js" placeholder="Don't be shy...">
+                </div>
+                <input type="submit" class="submit" value="Okay" onclick="wordcount()">
+            </form>
+        </section>
+        -->
     </main>
     <hr>
     <footer>
@@ -45,7 +72,7 @@
     </form>
     <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
-
+    <script src="popup.js"></script>
 </body>
 
 </html>
