@@ -52,11 +52,105 @@ article .section-2 {
     float: right;
     margin-right: 4px;
     margin-left: 3px;
-    margin-top: -27px;
+    margin-top: -57px;
 }
 footer h2{
     font-family: "Gamja Flower";
 }
 footer p {
     display: inline;
+}
+#notes{
+    font-family: "Gamja Flower";
+    height: 30px;
+    width: 40%;
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#notes:hover{
+    background-color: #e4572e;
+    box-shadow: 3px 3px 0 0 black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#form { 
+background-color: rgba(0, 0, 0, 0.3);
+width: 100%;
+height: 50em;
+position: fixed;
+top: 0;
+}
+.textbox {
+    margin: 2%;
+    outline: none;
+}
+.form-body {
+    position: fixed;
+    padding: 2%;
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    top: 30%;
+    left: 33.5%;
+}
+label {
+    margin-left: -6%;
+    padding: 20px;
+    top: 2%;
+    font-size: 1.2em;
+    font-family: "Gamja Flower";
+}
+.textbox {
+    margin: 15px;
+}
+.input-js {
+    padding: 15px;
+    width: 90%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+.submit {
+    background-color: tomato;
+    border: none;
+    border-radius: 4px;
+    padding: 9px;
+    color: white;
+    margin-left: 72%;
+    font-size: 1.2em;
+    font-family: "Gamja Flower";
+    transition: 0.4s;
+}
+.submit:hover {
+    background-color: black;
+    color: tomato;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#cancel {
+    margin-left: 29%;
+    font-size: 1.5em;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#cancel:hover {
+    color: tomato;
+    transition: 0.4s;
+}
+.word-count {
+    text-align: center;
+}
+#demo {
+    text-align: center;
+}
+.word {
+    align-content: center;
+    text-align: center;
 }

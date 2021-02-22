@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop-up</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="2.jpg">
+    <script src="popup.js"></script>
+</head>
+<body>
+    <button id="pop" onclick="popUp()">Add New Note</button>
+    <span id="label">Notes Written: <b id="num"></b></span>
+    <div id="notes">
+        <p id="msg">This is my first note <b><script></script></b></p>
+    </div> 
+    <div id="bg">
+        <div class="popup" id="get">
+            <form onsubmit="post()">
+                <label>Type your note here</label> <span id="cancel" onclick="document.getElementById('bg').style.display='none'">&times;</span>
+                <div id="tbox">
+                    <input type="text" class="txtbox" placeholder="Text goes here..." id="box">
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <marquee>This is a simple popup in JS...Thank you @DeC0d3R  @Riley</marquee>
+</body>
+</html>
