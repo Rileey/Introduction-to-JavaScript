@@ -23,7 +23,7 @@ main {
 p {
     font-family: "Gamja Flower";
 }
-article {
+#article {
     text-align: left;
     border: 4px solid #050401;
     box-shadow: 3px 3px 0 0 #e4572e;
@@ -68,21 +68,25 @@ footer p {
     color: white;
     box-shadow: 3px 3px 0 0 #e4572e;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     margin-bottom: 10px;
+    outline: none;
 }
 #notes:hover{
     background-color: #e4572e;
     box-shadow: 3px 3px 0 0 black;
     transition: 0.3s;
     cursor: pointer;
+    color: black;
 }
 #form { 
-background-color: rgba(0, 0, 0, 0.3);
+background-color: rgba(0, 0, 0, 0.37);
 width: 100%;
 height: 50em;
 position: fixed;
 top: 0;
+z-index: 1;
+display: none;
 }
 .textbox {
     margin: 2%;
@@ -93,11 +97,11 @@ top: 0;
     padding: 2%;
     background-color: white;
     width: 30%;
-    border-radius: 10px;
     top: 30%;
     left: 33.5%;
 }
 label {
+    color: black;
     margin-left: -6%;
     padding: 20px;
     top: 2%;
@@ -107,25 +111,42 @@ label {
 .textbox {
     margin: 15px;
 }
-.input-js {
-    padding: 15px;
+#box {
+    padding: 5px;
     width: 90%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(187, 178, 178);
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+#box2{
+    padding: none;
+    width: 90%;
+    height: 90px;
     outline: none;
     border: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 0 0 #e4572e;
 }
+#box3{
+    padding: 5px;
+    width: 90%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(187, 178, 178);
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
 .submit {
     background-color: tomato;
     border: none;
-    border-radius: 4px;
-    padding: 9px;
+    padding: 4px;
     color: white;
-    margin-left: 72%;
-    font-size: 1.2em;
+    margin-left: 75%;
     font-family: "Gamja Flower";
-    transition: 0.4s;
+    transition: 0.2s;
 }
 .submit:hover {
     background-color: black;
@@ -134,7 +155,7 @@ label {
     transition: 0.4s;
 }
 #cancel {
-    margin-left: 29%;
+    margin-left: 60%;
     font-size: 1.5em;
     position: relative;
     cursor: pointer;
@@ -144,13 +165,30 @@ label {
     color: tomato;
     transition: 0.4s;
 }
-.word-count {
+#word-count {
     text-align: center;
 }
 #demo {
     text-align: center;
 }
-.word {
+.words {
     align-content: center;
     text-align: center;
+}
+section p {
+    text-align: center;
+}
+.msg{
+    background-color: red;
+    font-family: 'Gamja Flower';
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#new-articles{
+    border: 4px solid #050401;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
